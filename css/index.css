@@ -1,0 +1,129 @@
+body {
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: #f7f7f7;
+}
+.calculation {
+    border: 2px solid black;
+    margin: 0 auto;
+    max-width: 400px;
+    height: 500px;
+    background-color: #eca713;
+    margin-top: 20px;
+}
+input {
+    border: 4px solid grey;
+    width: 260px;
+    height: 50px;
+    margin-left: 8px;
+    margin-top: 5px;
+    padding-left: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #e6e6db;
+}
+.mainButtons {
+    padding: 3px;
+    width: 270px;
+    margin-left: 10px;
+    margin-top: 20px;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.mainButtons .buttons {
+    display: flex;
+    width: 70px;
+    height: 60px;
+    justify-content: center;
+    align-self: center;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #292921;
+    color: #d5d5cf;
+    border: 1px solid silver;
+}
+.mainButtons .buttons:hover {
+    cursor: pointer;
+    color: yellow;
+}
+.mainButtons .buttons:last-child {
+    margin: 0 auto;
+}
+.mainOperations {
+    width: 70px;
+    height: 315px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    float: right;
+    margin-right: 10px;
+    margin-top: -340px;
+}
+.mainOperations .operations {
+    display: flex;
+    justify-content: center;
+    width: 60px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #363535;
+    color: #db1b32;
+    border: 1px solid black;
+}
+.mainOperations .operations:hover {
+    cursor: pointer;
+    color: yellow;
+}
+.mainEquil {
+    height: 50px;
+    width: 80px;
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.mainEquil .equil {
+    display: flex;
+    justify-content: center;
+    width: 60px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #4482ff;
+    color: #f0f0f0;
+    margin-right: 15px;
+    border: 1px solid black;
+}
+.mainEquil .equil:hover {
+    cursor: pointer;
+    color: red;
+}
+.mainRemover {
+    width: 60px;
+    height: 50px;
+    margin-left: 325px;
+    margin-top: -432px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.mainRemover .remover {
+    display: flex;
+    justify-content: center;
+    width: 60px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: black;
+    color: #5d9dff;
+    border: 1px solid black;
+    border: 2px solid grey;
+}
+.mainRemover .remover:hover {
+    cursor: pointer;
+    color: yellow;
+}
